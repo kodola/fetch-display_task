@@ -1,0 +1,24 @@
+.pagination_list{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.pagination_btn{
+  width: 5vw;
+  height: 5vw;
+  background-color: silver;
+  border: 1px solid dimgrey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  @include desktop{
+    width: 25px;
+    height: 25px;
+  }
+}
+.pagination_num{
+  font-size: 3vw;
+  @include desktop{
+    font-size: 15px;
+  }
+}
