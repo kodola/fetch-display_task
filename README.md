@@ -23,8 +23,8 @@ By clicking on a particular name we can move to the information about the specif
 To open the page you have to:
 - clone this repository
 - open the terminal and enter the command "git clone" + space + cloned repository link
-- go to the fetch-display_task folder and type "npm install" in the terminal
-- after the installation, enter "npm start" in the terminal and enter 
+- open the fetch-display_task file using the code editor and type "npm install" in the terminal
+- after the installation, enter "npm start" in the terminal and enter the path
 "http://localhost:3001/" in the current browser
 
 The site should display faultlessly in all new browsers.
